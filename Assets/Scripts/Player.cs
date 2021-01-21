@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class Player : MonoBehaviour
 {
     public Camera cam;   //camera
-    public NavMeshAgent nv;
+    public NavMeshAgent nv; //navemsh
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
